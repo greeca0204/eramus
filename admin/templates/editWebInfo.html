@@ -1,0 +1,100 @@
+{{include file='header.html'}}
+<form name="fmEdit" id="fmEdit" method="post" action="webInfo.php?action=save" enctype="multipart/form-data">
+	<input type="hidden" name="id" id="id" value="{{$webInfo.id}}" />
+	<table width="70%" align="center" cellspacing="1" cellpadding="3" class="i_table">
+		<tr>
+			<td colspan="2" class="head">网站信息管理</td>
+        </tr>
+		<tr>
+			<td width="10%" class="b">网站名称：</td>
+			<td class="b">
+				<input name="website" id="website" value="{{$webInfo.website}}"  class="frminput" />
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" class="b">公司名称：</td>
+			<td class="b">
+				<input name="comname" id="comname" value="{{$webInfo.comname}}" class="frminput"/>
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" class="b">网站关键字：</td>
+			<td class="b">
+				<input name="keyword" id="keyword" value="{{$webInfo.keyword}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">网站描述：</td>
+			<td class="b">
+				<input name="description" id="description" value="{{$webInfo.description}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">联系人：</td>
+			<td class="b">
+				<input name="negotiator" id="negotiator" value="{{$webInfo.negotiator}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">地址：</td>
+			<td class="b">
+				<input name="address" id="address" value="{{$webInfo.address}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">邮政编码：</td>
+			<td class="b">
+				<input name="postcode" id="postcode" value="{{$webInfo.postcode}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">电话1：</td>
+			<td class="b">
+				<input name="tel" id="tel" value="{{$webInfo.tel}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">电话2：</td>
+			<td class="b">
+				<input name="tel2" id="tel2" value="{{$webInfo.tel2}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">电话3：</td>
+			<td class="b">
+				<input name="tel3" id="tel3" value="{{$webInfo.tel3}}" class="frminput"/>
+			</td>
+		</tr>
+         <tr>
+			<td width="10%" class="b">电话4：</td>
+			<td class="b">
+				<input name="tel4" id="tel4" value="{{$webInfo.tel4}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b">传真：</td>
+			<td class="b">
+				<input name="fax" id="fax" value="{{$webInfo.fax}}" class="frminput"/>
+			</td>
+		</tr>        
+        <tr>
+			<td width="10%" class="b"> email：</td>
+			<td class="b">
+				<input name="email" id="email" value="{{$webInfo.email}}" class="frminput"/>
+			</td>
+		</tr>
+        <tr>
+			<td width="10%" class="b"> 版权信息：</td>
+			<td class="b">
+				<input name="copyright" id="copyright" value="{{$webInfo.copyright}}" class="frminput"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="b">
+				<input type="submit" value="提交">
+				<input type="reset" value="重置">
+			</td>
+		</tr>
+	</table>
+</form>
+{{include file='footer.html'}}

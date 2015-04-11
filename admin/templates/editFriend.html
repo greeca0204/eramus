@@ -1,0 +1,55 @@
+{{include file='header.html'}}
+<table width="100%" align="center" cellspacing="1" cellpadding="3" class="i_table">
+  <tr>
+    <td class="head" colspan="2"><b>操作菜单</b></td>
+  </tr>
+  <tr>
+    <td class="b_title">
+    	<a href="friend.php?action=new" target="_self">添加友情链接</a>&nbsp;
+    	<a href="friend.php" target="_self">友情链接管理</a>
+    </td>
+  </tr>
+</table>
+<br />
+<form name="fmEdit" id="fmEdit" method="post" action="friend.php?action=save" enctype="multipart/form-data">
+	<input type="hidden" name="id" id="id" value="{{$friend.id}}" />
+	<table width="100%" align="center" cellspacing="1" cellpadding="3" class="i_table">
+		<tr>
+			<td colspan="2" class="head">友情链接管理</td>
+        </tr>
+		<tr>
+			<td width="10%" class="b">链接名称：</td>
+			<td class="b">
+				<input name="friends" id="friends" value="{{$friend.friends}}"  class="frminput" />
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" class="b">链接地址：</td>
+			<td class="b">
+				<input name="url" id="url" value="{{$friend.url}}" class="frminput"/>
+			</td>
+		</tr>
+		<tr>
+			<td width="10%" class="b">链接logo：</td>
+			<td class="sel">
+				<input type="file" name="logo" id="logo" value="{{$friend.logo}}" />  
+				<input type="hidden" name="hasimg" value="{{$friend.logo}}" />
+			</td>
+		</tr>
+		{{if $friend.logo != ''}}
+		<tr>
+			<td width="20%" class="b">链接logo：</td>
+			<td class="b">            
+    			<img src="../{{$friend.logo}}" width="100"  alt="意拉慕斯" />	
+			</td>
+		</tr>
+		{{/if}}
+		<tr>
+			<td colspan="2" class="b">
+				<input type="submit" value="提交">
+				<input type="reset" value="重置">
+			</td>
+		</tr>
+	</table>
+</form>
+{{include file='footer.html'}}

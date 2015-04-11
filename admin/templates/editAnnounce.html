@@ -1,0 +1,42 @@
+{{include file='header.html'}}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<table width="100%" align="center" cellspacing="1" cellpadding="3" class="i_table">
+  <tr>
+    <td class="head" colspan="2"><b>操作菜单</b></td>
+  </tr>
+  <tr>
+    <td class="b_title">
+    	<a href="announcement.php?action=new" target="_self">添加公告信息</a>&nbsp;
+    	<a href="announcement.php" target="_self">公告信息管理</a>
+    </td>
+  </tr>
+</table>
+<br />
+<form name="fmEdit" id="fmEdit" method="post" action="announcement.php?action=save" enctype="multipart/form-data">
+	<input type="hidden" name="aid" id="aid" value="{{$announce.aid}}" />
+	<table width="100%" align="center" cellspacing="1" cellpadding="3" class="i_table">
+		<tr>
+			<td colspan="2" class="head">公告信息管理</td>
+        </tr>
+        <tr>
+			<td width="20%" class="b">公告标题</td>
+			<td class="b">
+				<input type="text" name="title" id="title" value="{{$announce.title}}"  class="frminput" />
+			</td>
+	  	</tr>
+	  	<tr>
+			<td width="20%" class="b">公告内容</td>
+			<td class="b">
+				<textarea name="content1"  id="content1" style="width:100%;height:350px; resize:none;">{{$announce.acontent}}</textarea>
+			</td>
+	  	</tr>
+		
+		<tr>
+			<td colspan="2" class="b">
+				<input type="submit" value="提交">
+				<input type="reset" value="重置">
+			</td>
+		</tr>
+	</table>
+</form>
+{{include file='footer.html'}}
