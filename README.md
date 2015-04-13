@@ -1,2 +1,2 @@
 # eramus
-This is official website for eramus company.
+This is the official website for eramus company.
