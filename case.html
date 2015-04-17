@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/base.css"/>
+<style>
+.warp{ width:100%;background:#e0e0e0; padding:80px 0px 20px 0px;}
+
+.Public{ width:980px; margin:0px auto; background: #000;}
+.Public-box{background:rgba(255, 255, 255, 0.3) none repeat scroll 0 0 !important;
+filter:Alpha(opacity=30); background:#fff;height:auto; padding-bottom:20px; border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;box-shadow:0 1px 2px #666;  -webkit-box-shadow:0 1px 2px #666; -moz-box-shadow:0 1px 2px #666;padding:10px; }
+#nav_lis{ width:130px; float:left; color:#fff; font-size: 18px;}
+#nav_lis li{ padding:10px 0px 10px 0px; height:20px;color:#FFF; line-height:26px; text-align:center; cursor:pointer;position:relative; }
+#nav_lis li:hover{ padding:10px 0px 10px 0px;background:#848484; color:#000; border-radius:5px 0 0 5px; font-size:18px; color: #fff;}
+#nav_lis li.hover{ padding:10px 0px 10px 0px; background:#848484; color:#000; border-radius:5px 0 0 5px; font-size:18px; color: #fff;}
+.wm_case_mod_bd{_background:#848484; filter:Alpha(opacity=80); padding-bottom:100px;width:840px;  border-radius:0 5px 5px 5px; padding-top:30px;background:#848484; height:500px; overflow: hidden;}
+.wm_case_mod_bd, .weimob_guide{display:none;}
+.wm_case_mod_bd.show, .weimob_guide.show{display:block;}
+.wm_case_mod_bd .wm_case_mod_bd_content{ margin:20px 0px 0px 60px; float:left;}
+
+.footer{ width:100%; height:33px; text-align:center; background:#1a1a1a; padding-top:20px;}
+.footer p{ color:#CCC;}
+</style>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<title>意拉慕斯</title>
+</head>
+
+<body>
+    <div class="warp">
+        <div class="Public">
+        
+            <div class="Public-box">
+            	<ul id="nav_lis">
+                	<li data-index="0" data-hash="#case-a" class="nav1">社交媒体</li>
+                    <li data-index="1" data-hash="#case-b" class="nav2">SEO优化</li>
+                    <li data-index="2" data-hash="#case-c" class="nav3">电子市场</li>
+                    <li data-index="3" data-hash="#case-d" class="nav4">网络公关</li>
+                    <li data-index="4" data-hash="#case-d" class="nav5">合作伙伴</li>
+                
+                </ul>
+                <div id="nav_uls" style="overflow:hidden;">
+                    <div data-index="0" class="wm_case_mod_bd">1
+                    	<div class="wm_case_mod_bd_content">
+                            <img src="images/case_01.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_02.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                    </div>
+                    <div data-index="1" class="wm_case_mod_bd">2
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_01.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_02.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>	
+                    </div>
+                    <div data-index="2" class="wm_case_mod_bd">3
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_01.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_02.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                    </div>
+                    <div data-index="3" class="wm_case_mod_bd">4
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_01.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_02.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>   
+                    </div>
+                    <div data-index="4" class="wm_case_mod_bd">5
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_01.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                        <div class="wm_case_mod_bd_content">
+                            <img src="images/case_02.jpg" alt="意拉慕斯" width="300" height="500" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        	<div class="cl"></div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var hash=window.location.hash || "#case-a";
+                if(hash){
+                    var lis=$("#nav_lis>li"),
+                        divs=$("#nav_uls>div");
+                    lis.each(function(index, v) {
+                        if(hash == v.getAttribute("data-hash")){
+                            v.className="hover";
+                            //.var divs = $("#nav_uls>div");
+                            for(var i=0,ci; ci = divs[i]; i++){
+                                if(index == ci.getAttribute("data-index")){
+                                    $(ci).addClass("show");
+                                }else{
+                                    $(ci).removeClass("show");
+                                }
+                            }
+                        }
+                    });
+                }
+    
+                $("#nav_lis").on("mouseover", function(e){
+                    $(this).find("li").removeClass("hover");
+                    e.target.className = "hover";
+                    var index = e.target.getAttribute("data-index");
+                    //
+                    var divs = $("#nav_uls>div");
+                    for(var i=0,ci; ci = divs[i]; i++){
+                        if(index == ci.getAttribute("data-index")){
+                            $(ci).addClass("show");
+                        }else{
+                            $(ci).removeClass("show");
+                        }
+                    }
+    
+                });		
+            });
+        </script>
+	</div>
+</body>
+</html>

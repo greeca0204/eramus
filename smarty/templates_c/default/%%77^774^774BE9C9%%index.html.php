@@ -1,3 +1,5 @@
+<?php /* Smarty version 2.6.18, created on 2015-04-17 14:11:08
+         compiled from index.html */ ?>
 <!DOCTYPE html>
 <html lang="zh-cn" class="" style="overflow: hidden; height: 100%;">
     <head>
@@ -116,7 +118,8 @@
                 </div>
                 <div class="warp1">
                     <div class="title">
-                        <p><img src="images/announce.png" width="28" height="24" />&nbsp;&nbsp;{{$announce.title}}</p>
+                        <p><img src="images/announce.png" width="28" height="24" />&nbsp;&nbsp;<?php echo $this->_tpl_vars['announce']['title']; ?>
+</p>
                     </div>
                     <div class="line"><img src="images/line_01.png" alt="意拉慕斯" width="435" height="12" /></div>
                     <div class="content">
