@@ -1,0 +1,22 @@
+var gameArr = [
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_0.jpg", "minImg": "http://www.autosi.com.cn/palwonew/images/case/min/game/show_game__min_0.jpg" },
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_1.jpg", "minImg": "http://www.autosi.com.cn/palwonew/images/case/min/game/show_game__min_1.jpg" },
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_2.jpg", "minImg": "http://www.autosi.com.cn/palwonew/images/case/min/game/show_game__min_2.jpg" },
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_3.jpg", "minImg": "http://www.autosi.com.cn/palwonew/images/case/min/game/show_game__min_3.jpg" },
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_4.jpg", "minImg": "http://www.autosi.com.cn/palwonew/images/case/min/game/show_game__min_4.jpg" },
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_5.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_6.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_7.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_8.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_9.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_10.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_11.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_12.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_13.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_14.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_15.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_16.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_17.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_18.jpg"},
+    { "showImg": "http://www.autosi.com.cn/palwonew/images/case/big/game/show_game_big_19.jpg"}
+];

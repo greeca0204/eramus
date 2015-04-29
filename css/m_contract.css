@@ -1,0 +1,13 @@
+/*contact*/
+.warp4{ width:100%; background:#1a1a1a; padding:20px 0px 20px 0px;}
+.warp4 .contact{ width:190px; margin:0px auto;}
+.warp4 .contact li{ float: left; color: #fff; font-size: 16px;}
+.warp4 .contact a:link,.warp4 .contact a:visited  {color:#fff; font-size:16px;}
+.warp4 .contact a:hover {color:#378b44; font-size:16px;}
+.warp4 .tel{width: 375px; height: 32px; margin: 100px auto 35px auto; background: #e0e0e0;border-radius: 15px;-webkit-border-radius: 15px;-moz-border-radius: 15px;}
+.warp4 .address{width: 375px; height: 32px; margin: 0px auto;background: #e0e0e0;border-radius: 15px;-webkit-border-radius: 15px;-moz-border-radius: 15px;}
+.warp4 .tel .icon{ width: 53px; height: 25px; float: left; margin-top:3px;}
+.warp4 .address .icon{ width: 53px; height: 33px; float: left;}
+.warp4 .tel .telinfo{ width:120px; float: left; margin-top: 7px;}
+.warp4 .tel .emailinfo{ width:130px;  float: left; margin-top: 7px;}
+.warp4 .address .information{ width:320px; float: left; margin-top: 7px;}

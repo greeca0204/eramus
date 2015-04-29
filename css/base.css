@@ -34,8 +34,8 @@ img { border:none; vertical-align:middle; }
 .banner2 .banner_cont{ width:1000px; height:602px; text-align:center; margin:0px auto;}
 
 .warp1{ width:1000px; height:335px; text-align:center; margin:0px auto;}
-.warp1 .title{ width:656px; margin:45px auto 16px auto;}
-.warp1 .content{ width:656px; height:120px; margin:45px auto 0px auto; text-align:center;}
+.warp1 .title{ width:656px; margin:20px auto 10px auto;}
+.warp1 .content{ width:656px; margin:10px auto 0px auto; text-align:center;}
 
 
 
@@ -66,5 +66,6 @@ img { border:none; vertical-align:middle; }
 .footer{ width:100%; height:33px; text-align:center; background:#1a1a1a; padding-top:20px;}
 .footer p{ color:#CCC;}
 */
-.foot{ width:100%; height:53px; text-align:center; background:#474747; padding-top:20px; position:fixed;  bottom:0px; left:0px; z-index:1000;}
+.foot{ width:100%; height:20px; text-align:center; background:#474747; padding-top:10px; position:fixed;  bottom:0px; left:0px; z-index:1000;}
 .foot p{ color:#1a1a1a; font-weight: bold; font-size:14px;}
+

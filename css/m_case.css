@@ -1,0 +1,77 @@
+/*h5案例展示*/
+.h5_protflio_main { background-color: #fff; overflow: hidden; font-family: "Microsoft Yahei","微软雅黑"; height: 513px;}
+.h5_protflio_nav { position: relative; float: left; padding-top: 40px; width: 84px; height: 473px; background: #3693aa; }
+.h5_protflio_nav ul { position: relative; z-index: 2;}
+.h5_protflio_nav li { margin-bottom: 8px; width: 84px; height: 28px; line-height: 28px; text-align: center; color: #165d6d; font-size: 18px; }
+.h5_protflio_nav li a{ display: block; width: 84px; color: #165d6d; }
+.h5_protflio_nav li.current a{color: #eab030;}
+.h5_protflio_nav .current_arrow{ position: absolute; top: 40px; left: 12px; width: 78px; height: 28px; background: url(../images/current_arrow.png) no-repeat; z-index: 1;}
+.h5_protflio_con { float: left; padding: 25px 0 0 0; width: 692px; height: 488px; overflow-y : auto; }
+.h5_protflio_con li { float: left; margin:  0 0 25px 26px; _display: inline; }
+#h5_protflio_con::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);background-color: #F5F5F5; }
+#h5_protflio_con::-webkit-scrollbar { width: 6px;background-color: #F5F5F5; }
+#h5_protflio_con::-webkit-scrollbar-thumb { background-color: #bcbcbc; }
+
+/*main*/
+.hid { text-indent: -9999px; font-size: 0px; overflow: hidden; width: 0px; height: 0px; display: block; }
+.wrap_bg { width: 100%; height: 100%; overflow: hidden;  margin: 0 auto; }
+.main { width: 970px; margin: 0 auto; position: relative; padding:20px 0px;}
+.pro { width: 194px; height: 513px; float: left; }
+.pro li { width: 194px; height: 86px; }
+.pro a { width: 194px; height: 86px; display: block; overflow:hidden;outline:none;text-indent:-9999px;overflow:hidden}
+.pro .btn_nav0 { background: url(../images/case_01.png) no-repeat; width: 194px; height: 83px; }
+.btn_service { background: url(../images/case_02.png) no-repeat; }
+.btn_service:hover,.btn_service_hover { background: url(../images/case_02.png) no-repeat; }
+.btn_contact { background: url(../images/case_03.png) no-repeat; }
+.btn_contact:hover,.btn_contact_hover { background: url(../images/case_03.png) no-repeat; }
+.btn_jobs { background: url(../images/case_04.png) no-repeat; }
+.btn_jobs:hover,.btn_jobs_hover { background: url(../images/case_04.png) no-repeat; }
+ .wxzh { width: 107px; height: 150px; position: absolute; top: 100px; left: 620px; width: 107px; text-indent: -9999px; }
+.btn_h5{ background: url(../images/case_05.png) no-repeat; }
+.btn_h5:hover, .btn_h5_hover { background: url(../images/case_05.png) no-repeat; }
+.btn_protfolio { background: url(../images/case_06.png) no-repeat; }
+.btn_protfolio:hover,.btn_protfolio_hover { background: url(../images/case_06.png) no-repeat; }
+.frm_con { float: left; width: 776px; overflow: hidden; position: relative; height: 513px; }
+.showdialog { background-color:#fff;border:50px solid #fff}
+.left_btn, .right_btn { position:absolute;top:0px;cursor:pointer}
+.right_btn { right:0px;}
+.left_btn { left: 0px; }
+.left_btn a, .right_btn a { display: block; text-indent: -9999px; overflow: hidden; width:67px;height:67px;background: url(http://www.autosi.com.cn/palwonew/images/sp_f.png) no-repeat; top:274px;position:absolute}
+.left_btn a{ left:-50px;background-position:0 -109px;}
+.right_btn a{ right:-50px;background-position:-80px -109px;}
+.left_btn a:hover { background-position:-157px -109px;}
+.right_btn a:hover { background-position:-237px -109px;}
+.btn_close { position:absolute;text-indent:-9999px;overflow:hidden;top:80px;right:-103px;width:53px;height:50px;background: url(http://www.autosi.com.cn/palwonew/images/sp_f.png) no-repeat -210px 0;}
+#caseImg { position:relative}
+.ovr iframe { float: left; }
+.ovr { width: 1552px; overflow: hidden; position: absolute; top: 0px; height: 513px; }
+.page_con { overflow:hidden;float:left;}
+/*page01*/
+.p1_main{width: 776px;height: 513px;background-color: #ffffff;}
+.concept{width:776px;height:360px;overflow: hidden;font-family: "Microsoft Yahei","微软雅黑"}
+.concept p{width:700px; margin: 58px 0 0 40px;font-size: 20px;color: #fa6569;display:block; text-indent:2em;}
+.concept ul{width: 380px;height: 100px;overflow: hidden;display: block;font-size: 15px;color: #757575;margin:20px 0 0 40px;}
+.concept li{width: 380px;height: 25px;display: block;}
+.head_pic{width:698px;height:164px;margin-left: 40px; overflow:hidden;}
+.head_pic ul{width: 698px;height:81px;}
+.head_pic li{width:86px;height:81px;display:block;float: left;overflow: hidden;margin: 1px 0 0 1px;overflow:hidden}
+.head_pic img{display: block;float:left;display:inline;margin-left:1px;}
+.head_pic ul p {width:200px;overflow:hidden;position:relative;}
+.copyright_pal{ width:370px;height: 50px;margin: 0px 0 0 407px;font-size: 10px;font-family: "微软雅黑";color: #a1a1a1;line-height: 50px;}
+.copyright_pal span{color:#fa5559;}
+.fl { float:left}
+.logo_a { display:block;text-indent:-9999px;overflow:hidden;width:94px;height:74px;margin:50px 0 0 13px}
+.wxzh { overflow:hidden}
+.concept li { width:460px}
+.float,.float1 {width: 90px; height: 201px; background: url(http://www.autosi.com.cn/palwonew/images/black.png) no-repeat;z-index: 99; display:block;left: 50%; }
+.float{  position: fixed; top: 240px; margin-left: 520px; }
+.float1{ position: absolute; top: 690px;  margin-left: 390px;}
+.btn_black{ width: 90px; height: 113px; display: block; margin-bottom: 90px;}
+.float span,.float1 span{ width: 90px; height: 20px; font: 12px/16px '\5FAE\8F6F\96C5\9ED1'; color: #bd4e4f; display: block; text-align: center;}
+.box_bottom{ width: 970px; margin: 240px auto 0; overflow: hidden;}
+.w_sample{ width: 770px; height: 30px;text-align: left; font: 12px/30px '\5FAE\8F6F\96C5\9ED1'; color: #f87677; position: relative;display: none; float: left;}
+.w_sample span{ display: block; float: left; margin-right: 20px;}
+.w_sample a{ display: block; float: left; margin: 5px 10px 0 0;}
+.sp_i{ background: url(http://www.autosi.com.cn/palwonew/images/sp_icon.jpg) no-repeat;}
+.icon_z,.icon_68{ width: 18px; height: 19px; background-position: 0 0;}
+.icon_68{ background-position:  -18px 0;}

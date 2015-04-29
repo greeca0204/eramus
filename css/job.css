@@ -1,0 +1,6 @@
+body{ background: #59c3ef;}
+.nav_news{ width: 50%; height:50px; background: #69b7b7; float: left; text-align: center;}
+.nav_news p{ margin-top: 15px;}
+.nav_news a{ color: #FFF; font-size: 18px;}
+.pnews_bg{ width:100%; background: #59c3ef;}
+.pnews_bg .pnews_top{ width:1000px; margin:0px auto;}

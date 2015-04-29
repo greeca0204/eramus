@@ -1,0 +1,7 @@
+/*business*/
+.warp3{ width:100%; }
+.warp3 .logo_bar{ width:1000px; margin:0px auto; position:relative;}
+.warp3 .logo_bar .second_logo{ width: 299px; height: 120px; position: absolute; top: 0px; left: 0px; z-index: 999;}
+.warp3 #ad1{ display: block; padding:20px 0px;}
+.warp3 #ad2,.warp3 #ad3,.warp3 #ad4{ display: none;  padding:20px 0px;}
+.warp3 .ad{ width:630px; margin:0px auto;}

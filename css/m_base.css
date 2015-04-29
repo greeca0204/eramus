@@ -1,0 +1,37 @@
+@charset "utf-8";
+html, body { color:#333; font-size:12px; font-family:微软雅黑;}
+body, form, p, ul, ol, h1,h2,h3,h4,h5,h6 { margin:0; padding:0; color:#000; }
+ul, ol { list-style:none; }
+a{text-decoration: none;}
+img { border:none; vertical-align:middle; }
+.fl { float:left; }
+.fr { float:right; }
+.cl { clear:both; line-height:0px; height:0;font-size:1px; overflow:hidden;}
+
+/*header*/
+.header{ width:1000px; height:80px; margin:0px auto;background:#FFF; }
+.header .logo{ width:442px; height:80px; float:left; margin-right:245px;}
+.header .nav{ width:313px; height:30px; float:left; padding-top:50PX;}
+.header .nav a:link,.header .nav a:visited  {color:#000; font-size:14px; font-weight:bold;}
+.header .nav a:hover {color:#378b44; font-size:14px; font-weight:bold;}
+.header .nav .business {position:relative;}
+.header .nav .lif{ float:left; margin-right:20px;}
+.header .nav .lif .subnav{ position:absolute; top:20px; left:0px; width:325px; height:51px;  background:#000;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity: 0.5; display:none;}
+.header .nav .lie{ float:left;}
+
+#topToolbar{width:100%; height:80px; margin:0px auto;position:fixed; top:0px; left:0; _top:0;_position:absolute; _top:expression(documentElement.scrollTop);background:#FFF;z-index:9999;}
+#topToolbar .header{ width:1000px; height:80px; margin:0px auto;background:#FFF; }
+#topToolbar .header .logo{ width:442px; height:80px; float:left; margin-right:245px;}
+#topToolbar .header .nav{ width:313px; height:30px; float:left; padding-top:50PX;}
+#topToolbar .header .nav a:link,.header .nav a:visited  {color:#000; font-size:14px; font-weight:bold;}
+#topToolbar .header .nav a:hover {color:#378b44; font-size:14px; font-weight:bold;}
+#topToolbar .header .nav .lif{ float:left; margin-right:20px;}
+#topToolbar .header .nav .lie{ float:left;}
+
+/*footer*/
+/*
+.footer{ width:100%; height:33px; text-align:center; background:#1a1a1a; padding-top:20px;}
+.footer p{ color:#CCC;}
+*/
+.foot{ width:100%; height:20px; text-align:center; background:#474747; padding-top:10px; position:fixed;  bottom:0px; left:0px; z-index:1000;}
+.foot p{ color:#1a1a1a; font-weight: bold; font-size:14px;}
