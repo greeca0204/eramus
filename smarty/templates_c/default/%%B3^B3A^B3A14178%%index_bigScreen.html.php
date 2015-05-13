@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2015-04-29 11:12:35
+<?php /* Smarty version 2.6.18, created on 2015-05-12 15:58:21
          compiled from index_bigScreen.html */ ?>
 <!DOCTYPE html>
 <html lang="zh-cn" class="" style="overflow: hidden; height: 100%;">
@@ -171,20 +171,43 @@
             </li>
             <li>
                 <div class="h5_protflio_main">	
-					<!--临时 -->
-					<div class="h5_protflio_con">
-                        <div style="width:100%;height:530px;border:1px solid #DCDCDC;">
-                            <div style="float:left;margin:50px 50px 0 50px;">
-                                <p style="text-align:justify;font-size:16pt;font-family:Microsoft YaHei;">
-                                    <span style="color:#E53333;">天翼流量800推广个案:</span>结合当下火热明星邓紫棋植入产品活动信息，吸引135248人关注，3579名网友互动讨论，曝光传播效果佳。
-                                </p>
-                            </div>
-                            <div style="float:left;margin:0 100px;">
-                                <img src="/kindeditor/attached/image/20150422/20150422092315_30331.jpg" alt="" width="600px" data-pinit="registered" /> 
-                            </div>
-                        </div>
-					</div>	
-					<!--临时 -->						
+                    
+
+
+                    <DIV class="h5_protflio_nav">
+                        <UL>
+                            <?php $_from = $this->_tpl_vars['cases']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['cases'] = array('total' => count($_from), 'iteration' => 0);
+if ($this->_foreach['cases']['total'] > 0):
+    foreach ($_from as $this->_tpl_vars['cases']):
+        $this->_foreach['cases']['iteration']++;
+?>
+                                <LI <?php if (($this->_foreach['cases']['iteration']-1) == 0): ?>class="current"<?php endif; ?>>
+                                    <a href="index.php?action=showcase&cid=<?php echo $this->_tpl_vars['cases']['cid']; ?>
+" target="showcase">
+                                        案例<?php echo ($this->_foreach['cases']['iteration']-1)+1; ?>
+
+                                    </a>
+                                </LI>
+                            <?php endforeach; endif; unset($_from); ?>  
+                        </UL>
+                        <I id="current_arrow" class="current_arrow"></I>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe id="showcase" name="showcase" width="100%" src="index.php?action=showcase&cid=1"></iframe>
+                    </DIV>
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
             </li>
             <li>
@@ -299,8 +322,8 @@
                 <div class="warp4">
                     <div class="contact">
                         <ul>
-                            <li><a href="news.html">公司简介</a>&nbsp;|&nbsp;</li>
-                            <li><a href="#">招聘</a>&nbsp;|&nbsp;</li>
+                            <li><a href="introduce.php">公司简介</a>&nbsp;|&nbsp;</li>
+                            <li><a href="recruit.php">招聘</a>&nbsp;|&nbsp;</li>
                             <li><a href="mailto:evan_eramus@163.com">联系我们</a></li>
                             <div class="cl"></div>
                         </ul>
@@ -376,7 +399,7 @@
             });
         </script>
         <div class="foot">
-    		<p>@ERAMUS Copyright 2015 ALL Right Reserved&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    		<p>@ERAMUS Copyright 2015 ALL Right Reserved&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备15031545号</p>
     	</div>
     </body>
 </html>

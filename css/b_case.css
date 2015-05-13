@@ -1,13 +1,23 @@
 /*h5案例展示*/
-.h5_protflio_main { background-color: #fff; overflow: hidden; font-family: "Microsoft Yahei","微软雅黑"; height: 513px;}
-.h5_protflio_nav { position: relative; float: left; padding-top: 40px; width: 84px; height: 473px; background: #3693aa; }
+.h5_protflio_main { background-color: #fff; overflow: hidden; font-family: "Microsoft Yahei","微软雅黑";width: 1000px; height: 513px;}
+.h5_protflio_nav { position: relative; float: left; padding-top: 40px; width: 84px; height: 513px; background: #3693aa; }
 .h5_protflio_nav ul { position: relative; z-index: 2;}
 .h5_protflio_nav li { margin-bottom: 8px; width: 84px; height: 28px; line-height: 28px; text-align: center; color: #165d6d; font-size: 18px; }
 .h5_protflio_nav li a{ display: block; width: 84px; color: #165d6d; }
 .h5_protflio_nav li.current a{color: #eab030;}
 .h5_protflio_nav .current_arrow{ position: absolute; top: 40px; left: 12px; width: 78px; height: 28px; background: url(../images/current_arrow.png) no-repeat; z-index: 1;}
-.h5_protflio_con { float: left; padding: 25px 0 0 0; width: 692px; height: 488px; overflow-y : auto; }
-.h5_protflio_con li { float: left; margin:  0 0 25px 26px; _display: inline; }
+
+
+.h5_protflio_nav1 { position: relative; float: left; padding-top: 40px; width: 84px; height: 513px; background: #3693aa; }
+.h5_protflio_nav1 ul { position: relative; z-index: 2;}
+.h5_protflio_nav1 li { margin-bottom: 8px; width: 84px; height: 28px; line-height: 28px; text-align: center; color: #165d6d; font-size: 18px; }
+.h5_protflio_nav1 li a{ display: block; width: 84px; color: #165d6d; }
+.h5_protflio_nav1 li.current a{color: #eab030;}
+.h5_protflio_nav1 .current_arrow{ position: absolute; top: 40px; left: 12px; width: 78px; height: 28px; background: url(../images/current_arrow.png) no-repeat; z-index: 1;}
+
+
+.h5_protflio_con { float: left; width: 800px; height: 513px; overflow-y : auto; }
+.h5_protflio_con li { float: left; width: 800px; margin:  0 0 25px 26px; _display: inline; }
 #h5_protflio_con::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);background-color: #F5F5F5; }
 #h5_protflio_con::-webkit-scrollbar { width: 6px;background-color: #F5F5F5; }
 #h5_protflio_con::-webkit-scrollbar-thumb { background-color: #bcbcbc; }

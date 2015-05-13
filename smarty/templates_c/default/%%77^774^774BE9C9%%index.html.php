@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2015-04-27 13:55:22
+<?php /* Smarty version 2.6.18, created on 2015-04-30 14:02:02
          compiled from index.html */ ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "header1.html", 'smarty_include_vars' => array()));
@@ -19,25 +19,25 @@ unset($_smarty_tpl_vars);
 	<div class="banner2">
 		<div id="js_banner" class="fx_banner" style="height:380px; background:red">
             <ul id="js_banner_img" class="fx_banner_img clear" style="height:502px;">
-                <li style="background:#ff4d3f;">
+                <li style="background:#76b7fb;">
                     <div class="fx_banner_inner fx_grid_c1">
                         <div class="child" data-z="2" style="left:0;top:0;"><img src="images/0_1.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>
                         <div class="child" data-z="3" style="left:0px;top:0;"><img src="images/0_2.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>
                     </div>
                 </li>
-				<li style="background:#5952dc;">
+				<li style="background:#efffc2;">
                     <div class="fx_banner_inner fx_grid_c1">
                         <div class="child" data-z="2" style="left:0;top:0;"><img src="images/1_1.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>
                         <div class="child" data-z="3" style="left:0px;top:0;"><img src="images/1_2.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>
                     </div>
                 </li>
-                <li style="background:#29ace0;">
+                <li style="background:#f28555;">
                     <div class="fx_banner_inner fx_grid_c1">
                         <div class="child" data-z="2" style="left:0;top:0;"><img src="images/2_1.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>
                         <div class="child" data-z="3" style="left:0px;top:0;"><img src="images/2_2.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>
                     </div>
                 </li>
-                <li style="background:#ffb047;">
+                <li style="background:#64e2ff;">
                     <div class="fx_banner_inner fx_grid_c1">
                         <div class="child" data-z="2" style="left:0;top:0;"><img src="images/3_1.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>
                         <div class="child" data-z="3" style="left:0px;top:0;"><img src="images/3_2.png" alt="" style=" max-width: 630px; width: expression(this.width >630 && this.height < this.width ? 630: true)"></div>

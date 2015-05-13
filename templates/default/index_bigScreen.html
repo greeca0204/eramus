@@ -168,82 +168,74 @@
             </li>
             <li>
                 <div class="h5_protflio_main">	
-					<!--临时 -->
-					<div class="h5_protflio_con">
-                        <div style="width:100%;height:530px;border:1px solid #DCDCDC;">
-                            <div style="float:left;margin:50px 50px 0 50px;">
-                                <p style="text-align:justify;font-size:16pt;font-family:Microsoft YaHei;">
-                                    <span style="color:#E53333;">天翼流量800推广个案:</span>结合当下火热明星邓紫棋植入产品活动信息，吸引135248人关注，3579名网友互动讨论，曝光传播效果佳。
-                                </p>
-                            </div>
-                            <div style="float:left;margin:0 100px;">
-                                <img src="/kindeditor/attached/image/20150422/20150422092315_30331.jpg" alt="" width="600px" data-pinit="registered" /> 
-                            </div>
-                        </div>
-					</div>	
-					<!--临时 -->						
+                    <DIV class="h5_protflio_nav1">
+                        <UL>
+                            {{foreach from=$cases item=cases name=cases}}
+                                <LI {{if $smarty.foreach.cases.index==0}}class="current"{{/if}}>
+                                    <a href="index.php?action=showcase&cid={{$cases.cid}}" target="showcases">
+                                        案例{{$smarty.foreach.cases.index+1}}
+                                    </a>
+                                </LI>
+                            {{/foreach}}  
+                        </UL>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=22" scrolling="no" frameborder="0"></iframe>
+                    </DIV>
                 </div>
             </li>
             <li>
                <div class="h5_protflio_main">
-					<!--临时 -->
-					<div style="width:100%;height:530px;border:1px solid #DCDCDC;">
-                        <div style="float:left;width:200px;margin:100px;">
-                            <p style="text-align:justify;font-size:16pt;font-family:Microsoft YaHei;">
-                                <span style="color:#C00000;">流量宝优化:</span> 2014年2月产品上线，力拼同名劲敌（欧朋流量宝），从没有排名到如今的搜索引擎中官网、长尾关键词、百科、经验、文库均在首页上榜，效果显著。
-                            </p>
-                        </div>
-                        <div style="float:left;margin-top:50px;">
-                            <img src="/kindeditor/attached/image/20150422/20150422092745_23346.jpg" alt="" width="320" data-pinit="registered" /> 
-                        </div>
-                    </div>
-					<!--临时 -->
+					<DIV class="h5_protflio_nav1">
+                        <UL>
+                            {{foreach from=$cases2 item=cases2 name=cases2}}
+                                <LI {{if $smarty.foreach.cases2.index==0}}class="current"{{/if}}>
+                                    <a href="index.php?action=showcase&cid={{$cases.cid}}">
+                                        案例{{$smarty.foreach.cases2.index+1}}
+                                    </a>
+                                </LI>
+                            {{/foreach}}  
+                        </UL>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=2" scrolling="no" frameborder="0"></iframe>
+                    </DIV>
                 </div>
             </li>
             <li>
                 <div class="h5_protflio_main">
-					<!--临时 -->
-					<div style="width:100%;height:530px;border:1px solid #DCDCDC;">
-                        <div style="float:left;margin:50px 50px 0 50px;">
-                            <p style="text-align:justify;font-size:16pt;font-family:Microsoft YaHei;">
-                                <span style="color:#C00000;">189邮箱电子市场排名优化:</span>下载优化总量50万余次，电子市场评论优化4500余次，历史最佳排名第一页第二位（安智市场）。
-                            </p>
-                        </div>
-                        <div style="float:left;margin:0px 50px;">
-                            <img src="/kindeditor/attached/image/20150422/20150422093655_99089.jpg" alt="" data-pinit="registered" /> 
-                        </div>
-                    </div>
-					<!--临时 -->
-				</div>
+                    <DIV class="h5_protflio_nav1">
+                        <UL>
+                            {{foreach from=$cases3 item=cases3 name=cases3}}
+                                <LI {{if $smarty.foreach.cases3.index==0}}class="current"{{/if}}>
+                                    <a href="index.php?action=showcase&cid={{$cases.cid}}">
+                                        案例{{$smarty.foreach.cases3.index+1}}
+                                    </a>
+                                </LI>
+                            {{/foreach}}  
+                        </UL>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=3" scrolling="no" frameborder="0"></iframe>
+                    </DIV>
+                </div>
             </li>
             <li>
                 <div class="h5_protflio_main">
-					<!--临时 -->
-					<div style="width:100%;height:530px;border:0 solid #DCDCDC;">
-                        <div style="float:left;margin-right:100px;position:relative;left:20px;top:50px;">
-                            <img src="/kindeditor/attached/image/20150422/20150422095547_47963.jpg" alt="歌莉娅" width="300px" data-pinit="registered" /> 
-                        </div>
-                        <div>
-                            <h1 style="margin-top:50px;">
-                                <span style="font-size:18pt;font-family:Microsoft YaHei;color:#C00000;font-weight:bold;">歌莉娅</span> 
-                            </h1>
-                            <ul style="font-size:18pt;font-family:Microsoft YaHei;">
-                                <li>
-                                    微信平台推送文案策划
-                                </li>
-                                <li>
-                                    微博平台活动文案策
-                                </li>
-                                <li>
-                                    日常维护
-                                </li>
-                            </ul>
-                            <p style="font-size:16.0pt;font-family:Microsoft YaHei;">
-                                清晰定位歌莉娅目标群体。在微信平台引入微商城，将服务细致化，策划典型文案 ，微博成功吸粉<span style="font-size:18.0pt;color:#C00000;">92.7</span>万。
-                            </p>
-                        </div>
-                    </div>	
-					<!--临时 -->
+                    <DIV class="h5_protflio_nav1">
+                        <UL>
+                            {{foreach from=$cases4 item=cases4 name=cases4}}
+                                <LI {{if $smarty.foreach.cases4.index==0}}class="current"{{/if}}>
+                                    <a href="index.php?action=showcase&cid={{$cases.cid}}">
+                                        案例{{$smarty.foreach.cases4.index+1}}
+                                    </a>
+                                </LI>
+                            {{/foreach}}  
+                        </UL>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=4" scrolling="no" frameborder="0"></iframe>
+                    </DIV>
                 </div>
             </li>
             <li>

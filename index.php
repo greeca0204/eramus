@@ -18,12 +18,18 @@
 		date_default_timezone_set('Asia/Shanghai');
 		r_require_once("/smarty/MySmarty.php");
 		r_require_once("/DAL/Announcement.php");
+		r_require_once("/DAL/Cases.php");
 		
 		$tpl = new MySmarty();
 		$announce = new Announcement();
+		$cases = new Cases();
 			
 		$tpl->assign("siteTitle","意拉慕斯");	
-		$tpl->assign("announce",$announce->getFirstAnnounce());
+		$tpl->assign("announce",$announce->getFirstAnnounce());		
+		$tpl->assign('cases', $cases->getCaseByPage(1,0,10,0));
+		$tpl->assign('cases2', $cases->getCaseByPage(2,0,10,0));
+		$tpl->assign('cases3', $cases->getCaseByPage(3,0,10,0));
+		$tpl->assign('cases4', $cases->getCaseByPage(4,0,10,0));
 		
 		$browser = getBrowser(); //recognize the browser
 		
@@ -37,7 +43,7 @@
 		
 		//create the template in different browser and different screen size
 		if($intScreenX==""||$intScreenY==""){
-			//at the first time,some browser can not fetch the cookie,so we must refresh the browser
+			//in the first time,some browser can not fetch the cookie,so we must refresh the browser
 			echo "<script>location.href='index.php';</script>";
 		}
 		else{
@@ -56,6 +62,20 @@
 					echo "您的浏览器版本过低，请更换其他浏览器观看！";
 			}
 		}
+	}
+	
+	//show case
+	function _showcase()
+	{
+		date_default_timezone_set('Asia/Shanghai');
+		r_require_once("/smarty/MySmarty.php");
+		r_require_once("/DAL/Cases.php");
+		$tpl = new MySmarty();
+		$tpl->assign("siteTitle","意拉慕斯");
+		$cid = getRequestIntParam('cid', 0);
+		$cases = new Cases();
+		$tpl->assign('cases', $cases->getOnebyCase($cid));
+		$tpl->display("showcase.html");
 	}
 	
 	//case page
