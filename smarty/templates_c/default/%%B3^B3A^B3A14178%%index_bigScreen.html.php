@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.18, created on 2015-05-12 15:58:21
+<?php /* Smarty version 2.6.18, created on 2015-05-14 16:43:51
          compiled from index_bigScreen.html */ ?>
 <!DOCTYPE html>
 <html lang="zh-cn" class="" style="overflow: hidden; height: 100%;">
@@ -171,105 +171,98 @@
             </li>
             <li>
                 <div class="h5_protflio_main">	
-                    
-
-
-                    <DIV class="h5_protflio_nav">
+                    <DIV class="h5_protflio_nav1">
                         <UL>
                             <?php $_from = $this->_tpl_vars['cases']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['cases'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['cases']['total'] > 0):
     foreach ($_from as $this->_tpl_vars['cases']):
         $this->_foreach['cases']['iteration']++;
 ?>
-                                <LI <?php if (($this->_foreach['cases']['iteration']-1) == 0): ?>class="current"<?php endif; ?>>
+                                <LI>
                                     <a href="index.php?action=showcase&cid=<?php echo $this->_tpl_vars['cases']['cid']; ?>
-" target="showcase">
+" target="showcase1">
                                         案例<?php echo ($this->_foreach['cases']['iteration']-1)+1; ?>
 
                                     </a>
                                 </LI>
                             <?php endforeach; endif; unset($_from); ?>  
                         </UL>
-                        <I id="current_arrow" class="current_arrow"></I>
                     </DIV>
-                    <DIV class="h5_protflio_con">      
-                       <iframe id="showcase" name="showcase" width="100%" src="index.php?action=showcase&cid=1"></iframe>
+                    <DIV class="h5_protflio_con">       
+                       <iframe id="showcase1" name="showcase1" width="100%" height="100%" src="index.php?action=showcase&cid=23" frameborder="0"></iframe>
                     </DIV>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
             </li>
             <li>
                <div class="h5_protflio_main">
-					<!--临时 -->
-					<div style="width:100%;height:530px;border:1px solid #DCDCDC;">
-                        <div style="float:left;width:200px;margin:100px;">
-                            <p style="text-align:justify;font-size:16pt;font-family:Microsoft YaHei;">
-                                <span style="color:#C00000;">流量宝优化:</span> 2014年2月产品上线，力拼同名劲敌（欧朋流量宝），从没有排名到如今的搜索引擎中官网、长尾关键词、百科、经验、文库均在首页上榜，效果显著。
-                            </p>
-                        </div>
-                        <div style="float:left;margin-top:50px;">
-                            <img src="/kindeditor/attached/image/20150422/20150422092745_23346.jpg" alt="" width="320" data-pinit="registered" /> 
-                        </div>
-                    </div>
-					<!--临时 -->
+					<DIV class="h5_protflio_nav1">
+                        <UL>
+                            <?php $_from = $this->_tpl_vars['cases2']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['cases2'] = array('total' => count($_from), 'iteration' => 0);
+if ($this->_foreach['cases2']['total'] > 0):
+    foreach ($_from as $this->_tpl_vars['cases2']):
+        $this->_foreach['cases2']['iteration']++;
+?>
+                                <LI>
+                                    <a href="index.php?action=showcase&cid=<?php echo $this->_tpl_vars['cases2']['cid']; ?>
+" target="showcase2">
+                                        案例<?php echo ($this->_foreach['cases2']['iteration']-1)+1; ?>
+
+                                    </a>
+                                </LI>
+                            <?php endforeach; endif; unset($_from); ?>  
+                        </UL>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe id="showcase2" name="showcase2" width="100%" height="100%" src="index.php?action=showcase&cid=11" frameborder="0"></iframe>
+                    </DIV>
                 </div>
             </li>
             <li>
                 <div class="h5_protflio_main">
-					<!--临时 -->
-					<div style="width:100%;height:530px;border:1px solid #DCDCDC;">
-                        <div style="float:left;margin:50px 50px 0 50px;">
-                            <p style="text-align:justify;font-size:16pt;font-family:Microsoft YaHei;">
-                                <span style="color:#C00000;">189邮箱电子市场排名优化:</span>下载优化总量50万余次，电子市场评论优化4500余次，历史最佳排名第一页第二位（安智市场）。
-                            </p>
-                        </div>
-                        <div style="float:left;margin:0px 50px;">
-                            <img src="/kindeditor/attached/image/20150422/20150422093655_99089.jpg" alt="" data-pinit="registered" /> 
-                        </div>
-                    </div>
-					<!--临时 -->
-				</div>
+                    <DIV class="h5_protflio_nav1">
+                        <UL>
+                            <?php $_from = $this->_tpl_vars['cases3']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['cases3'] = array('total' => count($_from), 'iteration' => 0);
+if ($this->_foreach['cases3']['total'] > 0):
+    foreach ($_from as $this->_tpl_vars['cases3']):
+        $this->_foreach['cases3']['iteration']++;
+?>
+                                <LI>
+                                    <a href="index.php?action=showcase&cid=<?php echo $this->_tpl_vars['cases3']['cid']; ?>
+" target="showcase3">
+                                        案例<?php echo ($this->_foreach['cases3']['iteration']-1)+1; ?>
+
+                                    </a>
+                                </LI>
+                            <?php endforeach; endif; unset($_from); ?>  
+                        </UL>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe id="showcase3" name="showcase3" width="100%" height="100%" src="index.php?action=showcase&cid=13" frameborder="0"></iframe>
+                    </DIV>
+                </div>
             </li>
             <li>
                 <div class="h5_protflio_main">
-					<!--临时 -->
-					<div style="width:100%;height:530px;border:0 solid #DCDCDC;">
-                        <div style="float:left;margin-right:100px;position:relative;left:20px;top:50px;">
-                            <img src="/kindeditor/attached/image/20150422/20150422095547_47963.jpg" alt="歌莉娅" width="300px" data-pinit="registered" /> 
-                        </div>
-                        <div>
-                            <h1 style="margin-top:50px;">
-                                <span style="font-size:18pt;font-family:Microsoft YaHei;color:#C00000;font-weight:bold;">歌莉娅</span> 
-                            </h1>
-                            <ul style="font-size:18pt;font-family:Microsoft YaHei;">
-                                <li>
-                                    微信平台推送文案策划
-                                </li>
-                                <li>
-                                    微博平台活动文案策
-                                </li>
-                                <li>
-                                    日常维护
-                                </li>
-                            </ul>
-                            <p style="font-size:16.0pt;font-family:Microsoft YaHei;">
-                                清晰定位歌莉娅目标群体。在微信平台引入微商城，将服务细致化，策划典型文案 ，微博成功吸粉<span style="font-size:18.0pt;color:#C00000;">92.7</span>万。
-                            </p>
-                        </div>
-                    </div>	
-					<!--临时 -->
+                    <DIV class="h5_protflio_nav1">
+                        <UL>
+                            <?php $_from = $this->_tpl_vars['cases4']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }$this->_foreach['cases4'] = array('total' => count($_from), 'iteration' => 0);
+if ($this->_foreach['cases4']['total'] > 0):
+    foreach ($_from as $this->_tpl_vars['cases4']):
+        $this->_foreach['cases4']['iteration']++;
+?>
+                                <LI>
+                                    <a href="index.php?action=showcase&cid=<?php echo $this->_tpl_vars['cases4']['cid']; ?>
+" target="showcase4">
+                                        案例<?php echo ($this->_foreach['cases4']['iteration']-1)+1; ?>
+
+                                    </a>
+                                </LI>
+                            <?php endforeach; endif; unset($_from); ?>  
+                        </UL>
+                    </DIV>
+                    <DIV class="h5_protflio_con">      
+                       <iframe id="showcase4" name="showcase4" width="100%" height="100%" src="index.php?action=showcase&cid=5" frameborder="0"></iframe>
+                    </DIV>
                 </div>
             </li>
             <li>

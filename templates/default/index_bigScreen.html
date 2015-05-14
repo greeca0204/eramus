@@ -171,16 +171,16 @@
                     <DIV class="h5_protflio_nav1">
                         <UL>
                             {{foreach from=$cases item=cases name=cases}}
-                                <LI {{if $smarty.foreach.cases.index==0}}class="current"{{/if}}>
-                                    <a href="index.php?action=showcase&cid={{$cases.cid}}" target="showcases">
+                                <LI>
+                                    <a href="index.php?action=showcase&cid={{$cases.cid}}" target="showcase1">
                                         案例{{$smarty.foreach.cases.index+1}}
                                     </a>
                                 </LI>
                             {{/foreach}}  
                         </UL>
                     </DIV>
-                    <DIV class="h5_protflio_con">      
-                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=22" scrolling="no" frameborder="0"></iframe>
+                    <DIV class="h5_protflio_con">       
+                       <iframe id="showcase1" name="showcase1" width="100%" height="100%" src="index.php?action=showcase&cid=23" frameborder="0"></iframe>
                     </DIV>
                 </div>
             </li>
@@ -189,8 +189,8 @@
 					<DIV class="h5_protflio_nav1">
                         <UL>
                             {{foreach from=$cases2 item=cases2 name=cases2}}
-                                <LI {{if $smarty.foreach.cases2.index==0}}class="current"{{/if}}>
-                                    <a href="index.php?action=showcase&cid={{$cases.cid}}">
+                                <LI>
+                                    <a href="index.php?action=showcase&cid={{$cases2.cid}}" target="showcase2">
                                         案例{{$smarty.foreach.cases2.index+1}}
                                     </a>
                                 </LI>
@@ -198,7 +198,7 @@
                         </UL>
                     </DIV>
                     <DIV class="h5_protflio_con">      
-                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=2" scrolling="no" frameborder="0"></iframe>
+                       <iframe id="showcase2" name="showcase2" width="100%" height="100%" src="index.php?action=showcase&cid=11" frameborder="0"></iframe>
                     </DIV>
                 </div>
             </li>
@@ -207,8 +207,8 @@
                     <DIV class="h5_protflio_nav1">
                         <UL>
                             {{foreach from=$cases3 item=cases3 name=cases3}}
-                                <LI {{if $smarty.foreach.cases3.index==0}}class="current"{{/if}}>
-                                    <a href="index.php?action=showcase&cid={{$cases.cid}}">
+                                <LI>
+                                    <a href="index.php?action=showcase&cid={{$cases3.cid}}" target="showcase3">
                                         案例{{$smarty.foreach.cases3.index+1}}
                                     </a>
                                 </LI>
@@ -216,7 +216,7 @@
                         </UL>
                     </DIV>
                     <DIV class="h5_protflio_con">      
-                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=3" scrolling="no" frameborder="0"></iframe>
+                       <iframe id="showcase3" name="showcase3" width="100%" height="100%" src="index.php?action=showcase&cid=13" frameborder="0"></iframe>
                     </DIV>
                 </div>
             </li>
@@ -225,8 +225,8 @@
                     <DIV class="h5_protflio_nav1">
                         <UL>
                             {{foreach from=$cases4 item=cases4 name=cases4}}
-                                <LI {{if $smarty.foreach.cases4.index==0}}class="current"{{/if}}>
-                                    <a href="index.php?action=showcase&cid={{$cases.cid}}">
+                                <LI>
+                                    <a href="index.php?action=showcase&cid={{$cases4.cid}}" target="showcase4">
                                         案例{{$smarty.foreach.cases4.index+1}}
                                     </a>
                                 </LI>
@@ -234,7 +234,7 @@
                         </UL>
                     </DIV>
                     <DIV class="h5_protflio_con">      
-                       <iframe name="showcases" width="100%" height="100%" src="index.php?action=showcase&cid=4" scrolling="no" frameborder="0"></iframe>
+                       <iframe id="showcase4" name="showcase4" width="100%" height="100%" src="index.php?action=showcase&cid=5" frameborder="0"></iframe>
                     </DIV>
                 </div>
             </li>
